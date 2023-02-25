@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  height: 66px;
+  box-shadow: 0px 1px 8px rgb(0 0 0 / 10%);
+}
+
+.log {
+  height: 66px;
+  background-image: url(negativo.png);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100%;
+  margin: 0px 10px 0px 20px;
+  width: 200px;
+}
+
+.help-mensaje {
+  line-height: normal;
+  float: right;
+  width: 24px;
+  height: 24px;
+  background-image: url(help-mensaje-ico.png);
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-size: auto 90%;
+  margin: 1%;
+  cursor: pointer;
+}
+
+.main {
+  width: 100%;
+  background-image: url("fondo-principal.jpg");
+  background-size: cover;
+  padding: 77px 48px;
+  background-position: center top 20%;
+}
+
+.formulario-contenedor {
+  width: 500px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 6px 5px 15px 2px rgb(0 0 0 / 10%);
+}
+
+.formulario-contenedor h2 {
+  padding: 22px;
+}
+
+form {
+  padding: 20px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+}
+
+.input label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input input {
+  width: 80%;
+  /* border: 0;
+  border-bottom: 1px solid black;
+  outline: none; */
+  line-height: 31px;
+  padding: 0;
+  color: #292929;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-radius: 0;
+  border-bottom: 1px solid #2c2a29;
+  outline: none;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 55px;
+  background-color: white;
+}
+
+.footer-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  background-image: url("footer-log.png");
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.footer-list li {
+  padding: 5px 25px 5px 25px;
+}
+
+.footer-list .primer-li {
+  margin-left: 30px;
+}
+
+.footer-list li a {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.formulario-contenedor .checkbox-contenedor {
+  margin: 0 0 22px 22px;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+}
+
+.formulario-contenedor .link {
+  padding-left: 22px;
+  margin-bottom: 20px;
+}
+
+.formulario-contenedor a {
+  color: #292929;
+  font-weight: bold;
+}
+
+.formulario-contenedor .boton {
+  padding-left: 22px;
+  margin-bottom: 15px;
+}
+
+.formulario-contenedor .boton button {
+  width: 165px;
+  background-color: #fdda24;
+  background-image: url("direct.png");
+  background-repeat: no-repeat;
+  background-position: 92% 50%;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+}
+
+.formulario-contenedor .boton button:hover {
+  background-color: #eec910;
+}
+
+.formulario-contenedor .footer-formulario {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+  padding: 30px;
+}
+
+.formulario-contenedor .footer-formulario a {
+  font-weight: 500;
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.footer-formulario .registio a {
+  background-image: url("penciul.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.footer-formulario .contactio a {
+  background-image: url("telephoniu-icon.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+@media (max-width: 576px) {
+  .li-oculto {
+    display: none;
+  }
+}

